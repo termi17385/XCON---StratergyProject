@@ -10,9 +10,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/XCON's/Scripts/Mechanics/WinLose.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/XCON's/Scripts/Mechanics/WInLose.cs" />
       <option value="$PROJECT_DIR$/Assets/XCON's/Scripts/Menus and UI/LoadOutMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/XCON's/Scripts/Mechanics/Weapons.cs" />
+      <option value="$PROJECT_DIR$/Assets/XCON's/Scripts/Mechanics/Units.cs" />
+      <option value="$PROJECT_DIR$/Assets/XCON's/Scripts/Mechanics/WinLose.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1xZAxOVhpQKh7m8i53iODKyg1PL" />
@@ -26,7 +33,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630552523726</updated>
       <workItem from="1630552546996" duration="840000" />
+      <workItem from="1631152966798" duration="5593000" />
     </task>
     <servers />
   </component>

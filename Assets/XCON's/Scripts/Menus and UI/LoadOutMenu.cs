@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class LoadOutMenu : MonoBehaviour
 {
@@ -12,6 +14,25 @@ public class LoadOutMenu : MonoBehaviour
     [SerializeField] private GameObject ArmourPanel;
     [SerializeField] private GameObject CustomisePanel;
     
+    [SerializeField] private Weapons _weapons;
+    
+    public TextMeshProUGUI GunNameTXT;
+    public TextMeshProUGUI GunAccTXT;
+    public TextMeshProUGUI GunDmgTXT;
+
+    private void Start()
+    {
+        _weapons.GetComponent<Weapons>();
+    }
+
+    public void Update()
+    {
+        GunNameTXT.text = _weapons.weaponName;
+        GunAccTXT.text = "Accuracy : " + _weapons.WeaponAcc.ToString();
+        GunDmgTXT.text =  "Damage : " +_weapons.WeaponDmg.ToString();
+    }
+
+
     public void SaveLoadout()
     {
         //empty atm not sure what data gonna save yet
